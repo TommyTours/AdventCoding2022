@@ -2,3 +2,4 @@
 Console.WriteLine("Hello, World!");
 
 Day1Puzzle1.output("Day1/input.txt");
+Day1Puzzle2.output("Day1/input.txt");
