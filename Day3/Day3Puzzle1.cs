@@ -19,19 +19,7 @@ class Day3Puzzle1
         // //var test =  listOfLists1stHalfDistinct.Select(x => x.Select(y => y).ToList().Intersect(listOfLists2ndHalfDistinct.Select(z => z.Select(w => w))));
         // var test2 = listOfLists1stHalf.Where(x => x.Select(z => z).Any() == listOfLists2ndHalf.Select(y => y).Any());
         // var test3 = firstHalfs.Where(x => secondHalfs.Select(y => y).Any(y => x.Contains(y)));
-        var priorities = sharedItems.Select(x => getPriority(x.First().ToString()));
+        var priorities = sharedItems.Select(x => Helpers.getPriority(x.First().ToString()));
         Console.WriteLine($"Day3Puzzle1 solution: {priorities.Sum()}");
-    }
-
-    private static int getPriority(string item)
-    {
-        if(item.ToUpper() == item)
-        {
-            return (int)item.First() - 38;
-        }
-        else 
-        {
-            return (int)item.First() - 96;
-        }
     }
 }
