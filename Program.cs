@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
 
 //Day1Puzzle1.output("Day1/input.txt");
 //Day1Puzzle2.output("Day1/input.txt");
@@ -8,4 +8,6 @@ Console.WriteLine("Hello, World!");
 //Day3.Day3Puzzle1.output("Day3/input.txt");
 //Day3.Day3Puzzle2.output("Day3/input.txt");
 //Day4.Day4Puzzle1.output("Day4/input.txt");
-Day4.Day4Puzzle2.output("Day4/input.txt");
+//Day4.Day4Puzzle2.output("Day4/input.txt");
+//Day5.Day5Puzzle1.output("Day5/input.txt");
+Day5.Day5Puzzle2.output("Day5/input.txt");
