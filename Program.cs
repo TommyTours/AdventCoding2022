@@ -10,4 +10,6 @@
 //Day4.Day4Puzzle1.output("Day4/input.txt");
 //Day4.Day4Puzzle2.output("Day4/input.txt");
 //Day5.Day5Puzzle1.output("Day5/input.txt");
-Day5.Day5Puzzle2.output("Day5/input.txt");
+//Day5.Day5Puzzle2.output("Day5/input.txt");
+//Day6.Day6Puzzle.output("Day6/input.txt", 1);
+Day6.Day6Puzzle.output("Day6/input.txt", 2);
